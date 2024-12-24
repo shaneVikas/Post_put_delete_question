@@ -1,0 +1,13 @@
+GET http://localhost:3000/players/
+
+
+GET http://localhost:3000/players/2
+
+POST http://localhost:3000/11
+Content-Type: application/json
+
+{
+    "playerName" : "vikas",
+    "jerseyNumber: 48,
+    "role" : "allrownder"
+}
